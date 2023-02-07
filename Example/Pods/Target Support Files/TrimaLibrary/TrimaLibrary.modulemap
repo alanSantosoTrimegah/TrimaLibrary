@@ -1,0 +1,6 @@
+framework module TrimaLibrary {
+  umbrella header "TrimaLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

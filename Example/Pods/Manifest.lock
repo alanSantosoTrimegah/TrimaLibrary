@@ -1,0 +1,16 @@
+PODS:
+  - TrimaLibrary (0.1.0)
+
+DEPENDENCIES:
+  - TrimaLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  TrimaLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TrimaLibrary: 1332f7a5ea09667af914c85a5726ffc474cee1c5
+
+PODFILE CHECKSUM: 7b280caec259ab0457112b49598b3e1670c6d3fc
+
+COCOAPODS: 1.11.3

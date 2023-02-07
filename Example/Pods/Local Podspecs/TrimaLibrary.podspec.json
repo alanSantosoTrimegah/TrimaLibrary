@@ -1,0 +1,22 @@
+{
+  "name": "TrimaLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of TrimaLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alan/TrimaLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alan": "alan.santoso@trimegah.com"
+  },
+  "source": {
+    "git": "https://github.com/Alan/TrimaLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TrimaLibrary/Classes/**/*"
+}

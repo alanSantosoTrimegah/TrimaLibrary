@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103963253E5AC533124CA83A23119914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1509286B9848F7283088ECC4AD3E58E0 /* Pods-TrimaLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB249B52C75809541754B72A94937D32 /* Pods-TrimaLibrary_Tests-dummy.m */; };
+		5B748EE8E34F1413193DC9E22CD0AB90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77F99CA3A7C92562EFAE23EF0F468A8A /* Pods-TrimaLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFC9528B063CE6E41273AC69B0C1BA2 /* Pods-TrimaLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89BCB781572E35DF3DF9F029BE6AB0F0 /* TrimaLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9269596D0AE3880367CE4BE1AC10EB8C /* TrimaLibrary-dummy.m */; };
+		B029006526185090C2A7DC0FA2045B4F /* TrimaLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16401F26C459553BD4FD0F32AECFBAB4 /* TrimaLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4F15A943124964E45922CCCC0963FB1 /* Pods-TrimaLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 771E43DE0E1AB5579BCBBABAF576BD4F /* Pods-TrimaLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA0ED115DBE31D552CFF2F0A0065C367 /* Pods-TrimaLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 131CB24157BE2FE400774E93E2044F01 /* Pods-TrimaLibrary_Example-dummy.m */; };
+		D56D80BDF31471B58F7536CBE521B96A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FBCAC1A0ED50CA21C150E643B9EB9C38 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3005F85516274F6EBBBD0AF6C96D42 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940B4AFCDEA5B2705DE95AD3084C7271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503F926E9774CD7497101603EA85BA98;
+			remoteInfo = TrimaLibrary;
+		};
+		E5FA8085AF3DB5F46100D6A11A6E6023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3852B30B5D209CD7B437BED4DAE1A62;
+			remoteInfo = "Pods-TrimaLibrary_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0237D016CE7B3FE933747ED6E998B7CE /* Pods-TrimaLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrimaLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		03F605D48B2E1D8B860521CD42D24D51 /* Pods_TrimaLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrimaLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A89BA4C8C9F08428D746D5041419B61 /* Pods-TrimaLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrimaLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DB4D164D75689B268092382BCA8931A /* Pods-TrimaLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrimaLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		131CB24157BE2FE400774E93E2044F01 /* Pods-TrimaLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrimaLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		16401F26C459553BD4FD0F32AECFBAB4 /* TrimaLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrimaLibrary-umbrella.h"; sourceTree = "<group>"; };
+		2EDDE6CF5C31604CD09A1B542D4DD30E /* TrimaLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrimaLibrary.modulemap; sourceTree = "<group>"; };
+		3945F09FA7F30FA35FFEDDEA7D869184 /* TrimaLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrimaLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		42D01C37E2EDE57756BA009E06B52BE9 /* Pods-TrimaLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrimaLibrary_Example-Info.plist"; sourceTree = "<group>"; };
+		4438CD1BEC086ABE511445D9686DFB1B /* TrimaLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TrimaLibrary-Info.plist"; sourceTree = "<group>"; };
+		62B8C4C0C6489F02631F6D44A9B27E4A /* Pods-TrimaLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrimaLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		771E43DE0E1AB5579BCBBABAF576BD4F /* Pods-TrimaLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrimaLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7DBEA6C1AB5F99DF46973CFD8799E942 /* Pods-TrimaLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrimaLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7F9D6358CA8294471B050DF80153C40F /* Pods-TrimaLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrimaLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		86D872804F8D9B32F7A5D99516F3A9E0 /* Pods-TrimaLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrimaLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B56EF391FA797DE8CEEBCEAD099B3A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8D0AE85B91B4A1467F8213740637E29F /* Pods-TrimaLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrimaLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9269596D0AE3880367CE4BE1AC10EB8C /* TrimaLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrimaLibrary-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFC9528B063CE6E41273AC69B0C1BA2 /* Pods-TrimaLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrimaLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		9FFB84B3D869B7BFFAD8B663A545849D /* TrimaLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TrimaLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9E0329BCC647B85264539234956B2B8 /* Pods-TrimaLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrimaLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB249B52C75809541754B72A94937D32 /* Pods-TrimaLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrimaLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		AB39725498801E2B3A7AFAF4880516FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ADA8616B20A6CE8047F5408A7B168243 /* TrimaLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrimaLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3005F85516274F6EBBBD0AF6C96D42 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TrimaLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DB3629DF9BB5C6EFBC451C3B504B50B2 /* Pods-TrimaLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrimaLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9051E854BC07107F83172558A65E98 /* Pods_TrimaLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrimaLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0645716CD31D95A454595FF5700DBEA /* TrimaLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrimaLibrary-prefix.pch"; sourceTree = "<group>"; };
+		E62DA71F4C03A3EEB1E854FC512C3DB1 /* Pods-TrimaLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrimaLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
+		E9D00DBCAAC2E19F19001D4DA6AA0F9E /* Pods-TrimaLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TrimaLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		FAFBC57668971280C38960D5F72599ED /* TrimaLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrimaLibrary.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E4F39A5EA487884B33ABE5708D13F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56D80BDF31471B58F7536CBE521B96A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712BED00117F1EC7276FE1B83F807B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103963253E5AC533124CA83A23119914 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB270C0E25B8E458F0F2C549DA8ED5C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B748EE8E34F1413193DC9E22CD0AB90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2717FE5FD074FD836FF6BB2A16F651F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9051E854BC07107F83172558A65E98 /* Pods_TrimaLibrary_Example.framework */,
+				03F605D48B2E1D8B860521CD42D24D51 /* Pods_TrimaLibrary_Tests.framework */,
+				ADA8616B20A6CE8047F5408A7B168243 /* TrimaLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D459B71443A5209306DA8A708863FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD72510AC172FA66AE35CC4AD42D5437 /* Pods-TrimaLibrary_Example */,
+				3C120B85C0669723C7BBDF68BA5315C0 /* Pods-TrimaLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C120B85C0669723C7BBDF68BA5315C0 /* Pods-TrimaLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D00DBCAAC2E19F19001D4DA6AA0F9E /* Pods-TrimaLibrary_Tests.modulemap */,
+				86D872804F8D9B32F7A5D99516F3A9E0 /* Pods-TrimaLibrary_Tests-acknowledgements.markdown */,
+				0DB4D164D75689B268092382BCA8931A /* Pods-TrimaLibrary_Tests-acknowledgements.plist */,
+				AB249B52C75809541754B72A94937D32 /* Pods-TrimaLibrary_Tests-dummy.m */,
+				E62DA71F4C03A3EEB1E854FC512C3DB1 /* Pods-TrimaLibrary_Tests-Info.plist */,
+				771E43DE0E1AB5579BCBBABAF576BD4F /* Pods-TrimaLibrary_Tests-umbrella.h */,
+				DB3629DF9BB5C6EFBC451C3B504B50B2 /* Pods-TrimaLibrary_Tests.debug.xcconfig */,
+				A9E0329BCC647B85264539234956B2B8 /* Pods-TrimaLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-TrimaLibrary_Tests";
+			path = "Target Support Files/Pods-TrimaLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D80BFEF189E9E5ECC4875F7F956A442 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B56EF391FA797DE8CEEBCEAD099B3A3 /* LICENSE */,
+				AB39725498801E2B3A7AFAF4880516FD /* README.md */,
+				9FFB84B3D869B7BFFAD8B663A545849D /* TrimaLibrary.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9409A32221E7975C90B3199F00C3B2E4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8B706BDEA59FEEA5F3BEA21F117B08 /* TrimaLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AC0DC71F64588FB2F35FC4166AEABD3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EDDE6CF5C31604CD09A1B542D4DD30E /* TrimaLibrary.modulemap */,
+				9269596D0AE3880367CE4BE1AC10EB8C /* TrimaLibrary-dummy.m */,
+				4438CD1BEC086ABE511445D9686DFB1B /* TrimaLibrary-Info.plist */,
+				E0645716CD31D95A454595FF5700DBEA /* TrimaLibrary-prefix.pch */,
+				16401F26C459553BD4FD0F32AECFBAB4 /* TrimaLibrary-umbrella.h */,
+				3945F09FA7F30FA35FFEDDEA7D869184 /* TrimaLibrary.debug.xcconfig */,
+				FAFBC57668971280C38960D5F72599ED /* TrimaLibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TrimaLibrary";
+			sourceTree = "<group>";
+		};
+		CD72510AC172FA66AE35CC4AD42D5437 /* Pods-TrimaLibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				62B8C4C0C6489F02631F6D44A9B27E4A /* Pods-TrimaLibrary_Example.modulemap */,
+				0A89BA4C8C9F08428D746D5041419B61 /* Pods-TrimaLibrary_Example-acknowledgements.markdown */,
+				0237D016CE7B3FE933747ED6E998B7CE /* Pods-TrimaLibrary_Example-acknowledgements.plist */,
+				131CB24157BE2FE400774E93E2044F01 /* Pods-TrimaLibrary_Example-dummy.m */,
+				7F9D6358CA8294471B050DF80153C40F /* Pods-TrimaLibrary_Example-frameworks.sh */,
+				42D01C37E2EDE57756BA009E06B52BE9 /* Pods-TrimaLibrary_Example-Info.plist */,
+				9EFC9528B063CE6E41273AC69B0C1BA2 /* Pods-TrimaLibrary_Example-umbrella.h */,
+				8D0AE85B91B4A1467F8213740637E29F /* Pods-TrimaLibrary_Example.debug.xcconfig */,
+				7DBEA6C1AB5F99DF46973CFD8799E942 /* Pods-TrimaLibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-TrimaLibrary_Example";
+			path = "Target Support Files/Pods-TrimaLibrary_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9409A32221E7975C90B3199F00C3B2E4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2717FE5FD074FD836FF6BB2A16F651F9 /* Products */,
+				36D459B71443A5209306DA8A708863FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8B706BDEA59FEEA5F3BEA21F117B08 /* TrimaLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BA3005F85516274F6EBBBD0AF6C96D42 /* ReplaceMe.swift */,
+				6D80BFEF189E9E5ECC4875F7F956A442 /* Pod */,
+				AC0DC71F64588FB2F35FC4166AEABD3B /* Support Files */,
+			);
+			name = TrimaLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01B11FFFD1B9FD86AF5BBC96CF56C4E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F99CA3A7C92562EFAE23EF0F468A8A /* Pods-TrimaLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A191E2D5C92744FC8E8074982A0D2551 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F15A943124964E45922CCCC0963FB1 /* Pods-TrimaLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F154429C996DFE84F9E42972D1E8AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B029006526185090C2A7DC0FA2045B4F /* TrimaLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		503F926E9774CD7497101603EA85BA98 /* TrimaLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14DDD2FDCF3BD201A31E9C256018D55 /* Build configuration list for PBXNativeTarget "TrimaLibrary" */;
+			buildPhases = (
+				B6F154429C996DFE84F9E42972D1E8AE /* Headers */,
+				4687E60841446B6F051C097B0EFAB9E2 /* Sources */,
+				1E4F39A5EA487884B33ABE5708D13F5C /* Frameworks */,
+				3191FE9B9FE098EE119E3678DAC7E5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrimaLibrary;
+			productName = TrimaLibrary;
+			productReference = ADA8616B20A6CE8047F5408A7B168243 /* TrimaLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F715750CF6B3F819389EA9189581FDA /* Pods-TrimaLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86894C7F6F1F76DDDE7AA5C1FCB6B714 /* Build configuration list for PBXNativeTarget "Pods-TrimaLibrary_Tests" */;
+			buildPhases = (
+				A191E2D5C92744FC8E8074982A0D2551 /* Headers */,
+				4CB190E7C685766E1282547F2C1DC4E4 /* Sources */,
+				BB270C0E25B8E458F0F2C549DA8ED5C0 /* Frameworks */,
+				E2B26473EDEA5065B94D3331A89571DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8F59240AE3C55ECD32D5B72E8641481 /* PBXTargetDependency */,
+			);
+			name = "Pods-TrimaLibrary_Tests";
+			productName = Pods_TrimaLibrary_Tests;
+			productReference = 03F605D48B2E1D8B860521CD42D24D51 /* Pods_TrimaLibrary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3852B30B5D209CD7B437BED4DAE1A62 /* Pods-TrimaLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8733A7894F7EF7246105D711DEC299A /* Build configuration list for PBXNativeTarget "Pods-TrimaLibrary_Example" */;
+			buildPhases = (
+				01B11FFFD1B9FD86AF5BBC96CF56C4E4 /* Headers */,
+				74DED9024B35F4FC4B3A4D81FDFD877B /* Sources */,
+				712BED00117F1EC7276FE1B83F807B59 /* Frameworks */,
+				A1C527E34C63E550ED58DB58A5A6037F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AFA7CF85285CCE02344B000B6DDE276 /* PBXTargetDependency */,
+			);
+			name = "Pods-TrimaLibrary_Example";
+			productName = Pods_TrimaLibrary_Example;
+			productReference = DE9051E854BC07107F83172558A65E98 /* Pods_TrimaLibrary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2717FE5FD074FD836FF6BB2A16F651F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3852B30B5D209CD7B437BED4DAE1A62 /* Pods-TrimaLibrary_Example */,
+				6F715750CF6B3F819389EA9189581FDA /* Pods-TrimaLibrary_Tests */,
+				503F926E9774CD7497101603EA85BA98 /* TrimaLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3191FE9B9FE098EE119E3678DAC7E5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C527E34C63E550ED58DB58A5A6037F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B26473EDEA5065B94D3331A89571DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4687E60841446B6F051C097B0EFAB9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBCAC1A0ED50CA21C150E643B9EB9C38 /* ReplaceMe.swift in Sources */,
+				89BCB781572E35DF3DF9F029BE6AB0F0 /* TrimaLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB190E7C685766E1282547F2C1DC4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1509286B9848F7283088ECC4AD3E58E0 /* Pods-TrimaLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DED9024B35F4FC4B3A4D81FDFD877B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0ED115DBE31D552CFF2F0A0065C367 /* Pods-TrimaLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AFA7CF85285CCE02344B000B6DDE276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrimaLibrary;
+			target = 503F926E9774CD7497101603EA85BA98 /* TrimaLibrary */;
+			targetProxy = 940B4AFCDEA5B2705DE95AD3084C7271 /* PBXContainerItemProxy */;
+		};
+		C8F59240AE3C55ECD32D5B72E8641481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TrimaLibrary_Example";
+			target = B3852B30B5D209CD7B437BED4DAE1A62 /* Pods-TrimaLibrary_Example */;
+			targetProxy = E5FA8085AF3DB5F46100D6A11A6E6023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26A92D53CC612DFA7EB8F38FBB3AFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E0329BCC647B85264539234956B2B8 /* Pods-TrimaLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrimaLibrary_Tests/Pods-TrimaLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrimaLibrary_Tests/Pods-TrimaLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37A72B2F37BA3820FA1AEA02376D939D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB3629DF9BB5C6EFBC451C3B504B50B2 /* Pods-TrimaLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrimaLibrary_Tests/Pods-TrimaLibrary_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrimaLibrary_Tests/Pods-TrimaLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		91FE0FE359EEA68A87DB4DB7C22B1199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0AE85B91B4A1467F8213740637E29F /* Pods-TrimaLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrimaLibrary_Example/Pods-TrimaLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrimaLibrary_Example/Pods-TrimaLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98A2EB1C82AC4F206644DE86B89E1C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3945F09FA7F30FA35FFEDDEA7D869184 /* TrimaLibrary.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TrimaLibrary/TrimaLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrimaLibrary/TrimaLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrimaLibrary/TrimaLibrary.modulemap";
+				PRODUCT_MODULE_NAME = TrimaLibrary;
+				PRODUCT_NAME = TrimaLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BAFA6931164D007A197D2D71013AC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFBC57668971280C38960D5F72599ED /* TrimaLibrary.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TrimaLibrary/TrimaLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TrimaLibrary/TrimaLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TrimaLibrary/TrimaLibrary.modulemap";
+				PRODUCT_MODULE_NAME = TrimaLibrary;
+				PRODUCT_NAME = TrimaLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7E37CCBDABEE26E3B94AB1BE625E966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBEA6C1AB5F99DF46973CFD8799E942 /* Pods-TrimaLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrimaLibrary_Example/Pods-TrimaLibrary_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrimaLibrary_Example/Pods-TrimaLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86894C7F6F1F76DDDE7AA5C1FCB6B714 /* Build configuration list for PBXNativeTarget "Pods-TrimaLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A72B2F37BA3820FA1AEA02376D939D /* Debug */,
+				26A92D53CC612DFA7EB8F38FBB3AFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14DDD2FDCF3BD201A31E9C256018D55 /* Build configuration list for PBXNativeTarget "TrimaLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A2EB1C82AC4F206644DE86B89E1C0A /* Debug */,
+				9BAFA6931164D007A197D2D71013AC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8733A7894F7EF7246105D711DEC299A /* Build configuration list for PBXNativeTarget "Pods-TrimaLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FE0FE359EEA68A87DB4DB7C22B1199 /* Debug */,
+				B7E37CCBDABEE26E3B94AB1BE625E966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

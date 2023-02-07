@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrimaLibrary'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'TrimaLibrary is Library Helper for developing Trima application'
 
 # This description is used to generate tags and improve search results.
@@ -23,10 +23,11 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alan' => 'alan.santoso@trimegah.com' }
-  s.source           = { :git => 'https://github.com/alanSantosoTrimegah/TrimaLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/alanSantosoTrimegah/TrimaLibrary.git', :tag => '0.0.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'TrimaLibrary/Classes/**/*'
   
